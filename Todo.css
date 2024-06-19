@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #080900;
+  margin-bottom: 20px;
+}
+
+#inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#newTask {
+  width: calc(100% - 60px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.addBtn {
+  padding: 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: #218838;
+}
+
+.undoBtn {
+  padding: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.undoBtn:hover {
+  background-color: #218838;
+}
+
+.delBtn {
+  padding: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: end;
+  float: right;
+  margin-left: auto;
+}
+
+.delBtn:hover {
+  background-color: #218838;
+}
+.editBtn {
+  padding: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: end;
+  float: right;
+  margin-left: auto;
+}
+
+.editBtn:hover {
+  background-color: #218838;
+}
+.saveBtn {
+  padding: 5px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: end;
+  float: right;
+  margin-left: auto;
+}
+
+.saveBtn:hover {
+  background-color: #218838;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.err {
+  color: red;
+  font-size: small;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
